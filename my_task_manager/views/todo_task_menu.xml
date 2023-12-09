@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_beginner_task" name="Beginner Task" sequence="30"/>
+    <menuitem id="menu_todo_task" name="To-Do Tasks" parent="menu_beginner_task" action="action_todo_task"/>
+</odoo>
